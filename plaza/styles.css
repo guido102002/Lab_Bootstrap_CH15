@@ -17,3 +17,25 @@ Recuerda: este archivo se enlaza DESPUÉS de Bootstrap.
 La paleta es tuya: colores cálidos de plaza de mercado.
 ============================================================
 */
+/*
+  Identidad visual · Sabores de la Plaza
+  Color principal: terracota cálido (#C8501E = rgb 200, 80, 30)
+  Fuente: Nunito (Google Fonts)
+*/
+
+:root {
+  --bs-primary: #C8501E;
+  --bs-primary-rgb: 200, 80, 30;
+  --bs-body-font-family: "Nunito", sans-serif;
+}
+
+.btn-primary {
+  --bs-btn-bg: #C8501E;
+  --bs-btn-border-color: #C8501E;
+  --bs-btn-hover-bg: #A94118;
+  --bs-btn-hover-border-color: #A94118;
+  --bs-btn-active-bg: #8F3714;
+  --bs-btn-active-border-color: #8F3714;
+  --bs-btn-disabled-bg: #C8501E;
+  --bs-btn-disabled-border-color: #C8501E;
+}
